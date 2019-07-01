@@ -1,0 +1,23 @@
+
+
+.grid-form{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows:  15% auto;
+}
+
+.form-container{
+    background: white;
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+    border-style: ridge;
+}
+
+.line-blue{
+    background: #008CBA;
+    grid-column: 2;
+    grid-row: 1;
+    height: 8%;
+    margin-top: 13%; 
+}
